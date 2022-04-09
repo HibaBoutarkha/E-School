@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "714692924382",
+    "project_id": "e-school-2022-389cf",
+    "storage_bucket": "e-school-2022-389cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714692924382:android:197a6db195cc23435cc34f",
+        "android_client_info": {
+          "package_name": "com.miola.eschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714692924382-cu55t73eb3hl1g1qmq9lhsrjidrjjh45.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxJ084ZSCtqgE6P60zUBKYoEY0kBYxCos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714692924382-cu55t73eb3hl1g1qmq9lhsrjidrjjh45.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
