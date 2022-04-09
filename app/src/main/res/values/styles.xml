@@ -1,0 +1,32 @@
+<resources>
+    <style name="Widget.Theme.ESchool.MyView" parent="">
+        <item name="android:background">@color/gray_400</item>
+    </style>
+    <style name="actionButton">
+        <item name="android:textColor">@color/fullblack</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="generalnotitle" parent="Theme.AppCompat.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="radioButton">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:width">75dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingLeft">24dp</item>
+    </style>
+    <style name="radiobuttonTextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#757171</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+    <style name="formfield">
+        <item name="android:background">@drawable/textedit_background</item>
+        <item name="android:layout_width">320dp</item>
+        <item name="android:layout_height">51dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:ems">10</item>
+    </style>
+</resources>

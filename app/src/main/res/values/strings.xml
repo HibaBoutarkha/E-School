@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">E-School</string>
+    <string name="e_school">
+        <b>
+            <font color="#000000">E-</font>
+            <font color="#FEAB21">School</font>
+        </b>
+    </string>
+    <string name="login_account">
+        <b>
+            <font color="#000000">Login Account</font>
+        </b>
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
