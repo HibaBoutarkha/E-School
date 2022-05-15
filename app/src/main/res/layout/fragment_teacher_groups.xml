@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                     android:layout_gravity="center"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              tools:context=".Fragments.TeacherGroupsFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/grouprecyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/addgroupbutton"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="10dp"
+            app:icon="@drawable/ic_add_24"
+            app:iconTint="@color/white"
+            android:backgroundTint="@color/primaryorange_25"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/deletegroupbutton"
+            app:layout_anchor="@+id/addgroupbutton"
+            android:translationY="-10dp"
+            app:layout_anchorGravity="top"
+            android:layout_gravity="top|end"
+            app:icon="@drawable/ic_delete_24"
+            app:iconTint="@color/white"
+            android:backgroundTint="@color/primaryorange_25"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

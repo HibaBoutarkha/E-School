@@ -65,15 +65,20 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     }
 
     public void setUI(String account,String uid){
+
         switch (account){
             case "admin":
-                Toast.makeText(this, "admin is logged", Toast.LENGTH_SHORT).show();
+                Intent adintent = new Intent(this, AdminHomeActivity.class);
+                adintent.putExtra("uid",uid);
+                startActivity(adintent);
                 break;
             case "scholar":
-                Toast.makeText(this, "scholar is logged", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(this, StudentHomeActivity.class);
+                intent.putExtra("uid",uid);
+                startActivity(intent);
                 break;
             case "teacher":
-                Intent myIntent = new Intent(this, TeacherMainActivity.class);
+                Intent myIntent = new Intent(this, TeacherHomeActivity.class);
                 myIntent.putExtra("uid",uid);
                 startActivity(myIntent);
                 break;

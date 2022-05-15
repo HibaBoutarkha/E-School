@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:tools="http://schemas.android.com/tools" android:layout_marginBottom="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="0dp" android:background="@drawable/group_item_selector"
+        android:layout_height="wrap_content" android:layout_width="300dp"
+        android:padding="10dp"
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+            android:src="@drawable/ic_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/nextbutton"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="36dp" android:layout_marginEnd="16dp"/>
+    <ImageView
+            android:src="@drawable/ic_update_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/updatebutton"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="4dp" android:layout_marginEnd="16dp"/>
+    <TextView
+            android:layout_width="150dp"
+            android:id="@+id/groupId"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primaryorange"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="4dp" app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView android:layout_width="180dp" android:layout_height="wrap_content"
+              android:id="@+id/groupDescription"
+              android:textAlignment="viewStart"
+              app:layout_constraintTop_toTopOf="parent"
+              android:layout_marginTop="36dp" app:layout_constraintStart_toStartOf="parent"
+              android:layout_marginStart="32dp"/>
+
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

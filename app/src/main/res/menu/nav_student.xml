@@ -10,11 +10,8 @@
             android:contentDescription="My profile"
             android:title="My profile"/>
     <item
-            android:icon="@drawable/ic_students"
+            android:icon="@drawable/ic_teacher"
             android:contentDescription="My students"
-            android:title="My students"/>
-    <item
-            android:icon="@drawable/ic_groups"
-            android:contentDescription="My groups"
-            android:title="My groups"/>
+            android:title="My Teachers"/>
+
 </menu>

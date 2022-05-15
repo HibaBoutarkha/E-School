@@ -37,6 +37,7 @@ public class LoginModel {
         });
     }
     public void authenticateUser(LoginActivity activity){
+
         User user= activity.getUser();
         auth.signInWithEmailAndPassword(user.getEmail(), user.getPassword()).addOnCompleteListener(activity, new OnCompleteListener<AuthResult>() {
                   @Override

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:id="@+id/teacheritem"
+                                                   app:cardCornerRadius="8dp"
+                                                   android:clickable="true"
+                                                   app:cardElevation="8dp"
+                                                   android:layout_margin="16dp"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="wrap_content"
+                                                   android:padding="5dp"
+                                                   android:paddingBottom="10dp"
+                                                   android:background="@drawable/rectangle_shape"
+                                                   android:textAlignment="viewEnd">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="300dp"
+                                                       android:layout_height="wrap_content"
+                                                       app:layout_constraintTop_toTopOf="parent"
+                                                       app:layout_constraintBottom_toBottomOf="parent"
+                                                       app:layout_constraintEnd_toEndOf="parent"
+                                                       app:layout_constraintStart_toStartOf="parent">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Description"
+                  android:textSize="16sp"
+                  android:textStyle="bold|italic"
+                  android:id="@+id/description"
+                  app:layout_constraintTop_toTopOf="parent"
+                  app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  app:layout_constraintVertical_bias="0.081" android:textColor="@color/primaryorange"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Matiere"
+                  android:id="@+id/matiere"
+                  app:layout_constraintTop_toTopOf="parent"
+                  android:layout_marginTop="40dp"
+                  android:textAlignment="viewStart"
+                  app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="152dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Salle"
+                  android:id="@+id/salle"
+                  app:layout_constraintTop_toTopOf="parent"
+                  android:layout_marginTop="68dp" app:layout_constraintStart_toStartOf="parent"
+                  android:layout_marginStart="152dp" android:textAlignment="viewStart"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Matiere :"
+                  android:id="@+id/textView10"
+                  app:layout_constraintTop_toTopOf="parent"
+                  app:layout_constraintStart_toStartOf="parent"
+                  android:layout_marginStart="28dp" android:layout_marginTop="40dp" style="bol"
+                  android:textStyle="bold"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Salle :"
+                  android:id="@+id/textView11"
+                  android:textStyle="bold"
+                  app:layout_constraintTop_toTopOf="parent"
+                  android:layout_marginTop="68dp" app:layout_constraintStart_toStartOf="parent"
+                  android:layout_marginStart="28dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
